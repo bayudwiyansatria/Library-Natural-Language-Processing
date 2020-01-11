@@ -43,7 +43,7 @@ process_content()
 
 # NLTK morphological restoration
 lemmatizer = WordNetLemmatizer() 
-print(lemmatizer.lemmatize( "cats" ));
+print(lemmatizer.lemmatize( "cats" ))
 print(lemmatizer.lemmatize( "cacti" ))
 print(lemmatizer.lemmatize( "geese" ))
 print(lemmatizer.lemmatize( "rocks" ))
